@@ -1,4 +1,5 @@
 # Examen Final - Simulador de Planificación de Procesos
+https://github.com/sharafayyoub/examen_finall.git
 
 Este proyecto implementa un simulador de planificación de procesos inspirado en sistemas operativos. Soporta los algoritmos de planificación **FCFS** (First-Come, First-Served) y **Round-Robin**.
 
