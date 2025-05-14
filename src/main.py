@@ -1,4 +1,10 @@
 import argparse
+import sys
+import os
+
+# Asegurar que el directorio src esté en el PYTHONPATH
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from src.proceso import Proceso
 from src.repositorio_procesos import RepositorioProcesos
 from src.scheduler_fcfs import FCFSScheduler
